@@ -13,17 +13,18 @@ More options might be supported in the future
 
 
 ## Commands reference
+This commands can be run in terminal from any path
 
 ### Xcode indexing
 Indexing can take a lot of processing bandwidth so sometimes might be useful to disable it.
 Useful when switching git branches or you need faster build process for tests or archiving/building.
 Restart is required 
 
-`startXcodeIndexing`
-`stopXcodeIndexing`
+- `startXcodeIndexing`
+- `stopXcodeIndexing`
 
 ### Finder hidden files
 Mac OS has a bunch of hidden files which sometimes can be useful to see them in finder instead of just the terminal.
 
-`showHiddenFiles`
-`hideHiddenFiles`
+- `showHiddenFiles`
+- `hideHiddenFiles`
