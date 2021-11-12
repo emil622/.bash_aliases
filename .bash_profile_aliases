@@ -1,0 +1,14 @@
+
+### Xcode commands
+
+# Indexing
+
+alias stopXcodeIndexing='defaults write com.apple.dt.XCode IDEIndexDisable 1'
+alias startXcodeIndexing='defaults write com.apple.dt.XCode IDEIndexDisable 0'
+
+
+### Finder commands
+# show / hide hidden files
+
+alias showHiddenFiles='defaults write com.apple.Finder AppleShowAllFiles true && killall Finder'
+alias hideHiddenFiles='defaults write com.apple.Finder AppleShowAllFiles false && killall Finder'
